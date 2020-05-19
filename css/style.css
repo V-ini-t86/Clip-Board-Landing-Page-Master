@@ -1,0 +1,81 @@
+body {
+	font-family: 'Bai Jamjuree', sans-serif;
+	text-align: center;
+}
+
+p {
+	color: hsl(171, 66%, 44%);
+}
+
+h1, h2, h3, h4, h5, h6  {
+	color: hsl(210, 10%, 33%);
+}
+
+/*Header Section*/
+
+#copyright {
+	padding: 5% 0%;
+	background-image: url(../images/bg-header-desktop.png)
+}
+
+#copyright img {
+	padding: 2% 0% 3%;
+}
+
+/*Snippets Section*/
+
+#snippets {
+	padding: 5% 0%;
+}
+
+
+#snippets  img{
+	width: 100%;
+}
+
+/*Access Section*/
+#Access img {
+	width: 100%;
+	padding: 5% 0%;
+}
+/*#Access p {
+	padding: 2% 5%;
+}*/
+.cre-img {
+	padding: 4% 0%;
+}
+
+/*Clipboard Section*/
+#Clipboard {
+	padding: 10% 0%;
+}
+
+
+/*Footer SEction*/
+
+#footed {
+	background-color: #F5F6F8;
+	padding: 3% 0%;
+}
+
+.log {
+	width: 65px;
+	height: 65px;
+}
+@media(min-width: 992px) {
+	#copyright p {
+		padding: 1% 25%;
+	}
+	.para {
+		padding: 1% 22%;
+	}
+	.para-snippet {
+		padding: 1% 22%; 
+	}
+	.buttonss {
+		padding: 1% 30%;
+	}
+	#Access p {
+		padding: 2% 20%;
+	}
+}
